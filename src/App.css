@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #262626;;
   height: 150px;
   padding: 20px;
   color: white;
@@ -16,12 +16,48 @@
 
 .App-title {
   font-size: 1.5em;
-  margin: 0;
+  color: white;
 }
 
 .App-intro {
   font-size: large;
 }
+
+/* Navbar */
+nav {
+  background-color: #262626;
+}
+
+.title {
+  color: #f66416;
+}
+
+h1 {
+  text-align: left;
+  /* padding-left: 20px; */
+  font-size: 2.5em;
+}
+
+p, a {
+  color: silver;
+}
+
+a:link {
+  color: silver;
+  background-color: transparent;
+  text-decoration: none
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
