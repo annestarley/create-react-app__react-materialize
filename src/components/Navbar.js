@@ -7,10 +7,10 @@ const Navbar = () => {
       <nav>
         <div className="App-header">
           <Row>
-            <Col l={8}>
+            <Col l={8} xs={12}>
               <h1>Paper <span className="title">Trader</span></h1>
             </Col>
-            <Col l={4}>
+            <Col l={4} xs={12}>
             <p>
               <span>
                 <Modal

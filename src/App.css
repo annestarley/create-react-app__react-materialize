@@ -8,9 +8,8 @@
 }
 
 .App-header {
-  background-color: #262626;;
-  height: 150px;
-  padding: 20px;
+  background-color: #424243;
+  height: 150%;
   color: white;
 }
 
@@ -34,7 +33,6 @@ nav {
 
 h1 {
   text-align: left;
-  /* padding-left: 20px; */
   font-size: 2.5em;
 }
 
