@@ -56,6 +56,20 @@ a:link {
   text-decoration: none
 }
 
+/* .modal, .modal-footer {
+  background-color: #262626;
+  color: white;
+} */
+
+.search {
+  color: silver;
+}
+
+h4 {
+  background: #f66416;
+  color: white;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

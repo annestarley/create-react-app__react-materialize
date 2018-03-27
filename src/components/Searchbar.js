@@ -13,6 +13,7 @@ const Searchbar = () => {
       <Row>
         <Col l={6}>
           <Autocomplete
+            className='search'
             title='Company code'
             data={
               {

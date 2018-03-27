@@ -1,5 +1,5 @@
 import React from 'react'
-import {Modal, Row, Col, Button, Carousel} from 'react-materialize'
+import {Modal, Row, Col, Button, Carousel, Input} from 'react-materialize'
 
 const Navbar = () => {
   return (
@@ -14,9 +14,13 @@ const Navbar = () => {
             <p>
               <span>
                 <Modal
+                  className="modal"
                   header='Log in'
                   trigger={<a>log in </a>}>
-                  <p>Login stuff</p>
+                  <Row>
+                    <Input s={12} label="Username" />
+                    <Input type="password" label="password" s={12} />
+                </Row>
                 </Modal>
               </span>
               or
@@ -24,7 +28,9 @@ const Navbar = () => {
                 <Modal
                   header='Sign up'
                   trigger={<a> sign up</a>}>
-                  <p>sign up stuff</p>
+                  <Input s={12} label="Username" />
+                  <Input type="password" label="password" s={12} />
+                  <Input type="password" label="confirm password" s={12} />
                 </Modal>
               </span>
             </p>

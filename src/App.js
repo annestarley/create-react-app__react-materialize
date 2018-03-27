@@ -4,6 +4,7 @@ import './App.css';
 import { Button, Card, Container, Row, Col, Input } from 'react-materialize';
 import Navbar from './components/Navbar'
 import Searchbar from './components/Searchbar'
+import InfoTab from './components/InfoTab'
 
 class App extends Component {
 
@@ -18,6 +19,11 @@ class App extends Component {
         <Row>
           <Col l={6}>
             <Searchbar />
+          </Col>
+        </Row>
+        <Row>
+          <Col l={3}>
+            <InfoTab />
           </Col>
         </Row>
       </div>
